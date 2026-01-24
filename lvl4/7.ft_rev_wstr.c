@@ -1,3 +1,23 @@
+/*
+Escriba un programa que tome una cadena como parámetro e imprima sus palabras en orden inverso.
+
+Una "palabra" es una parte de la cadena delimitada por espacios o tabulaciones, o el principio o el final de la cadena.
+
+Si el número de parámetros es diferente de 1, el programa mostrará '\n'.
+
+En los parámetros que se van a probar, no habrá espacios adicionales (es decir, no habrá espacios adicionales al principio ni al final de la cadena, y las palabras siempre estarán separadas por exactamente un espacio).
+
+Ejemplos:
+$> ./rev_wstr "You hate people! But I love gatherings. Isn't it ironic?" | cat -e
+ironic? it Isn't gatherings. love I But people! hate You$
+$>./rev_wstr "abcdefghijklm"
+abcdefghijklm
+$> ./rev_wstr "Wingardium Leviosa" | cat -e
+Leviosa Wingardium$
+$> ./rev_wstr | cat -e
+$
+$>
+*/
 #include <unistd.h>
 
 int main(int argc, char **argv)

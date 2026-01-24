@@ -1,3 +1,10 @@
+/*Escriba una función que convierta el argumento de cadena str en un entero (tipo int) y lo devuelva.
+
+Funciona de forma muy similar a la función estándar atoi(const char *str) (consulte el manual).
+
+Su función debe declararse de la siguiente manera:
+int	ft_atoi(const char *str);
+*/
 int ft_atoi(const char *str)
 {
     int result = 0;

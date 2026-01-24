@@ -1,3 +1,8 @@
+/*Reproduzca el comportamiento de la función strcpy (man strcpy).
+
+Su función debe declararse de la siguiente manera:
+char    *ft_strcpy(char *s1, char *s2);
+*/
 char *ft_strcpy(char *s1, char *s2)
 {
     int i = 0;

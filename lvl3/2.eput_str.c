@@ -1,3 +1,20 @@
+/*Escriba un programa que tome una cadena y la muestre con solo un espacio entre palabras, sin espacios ni tabulaciones ni al principio ni al final, seguido de un \n.
+
+Una "palabra" se define como una parte de una cadena delimitada por espacios/tabulaciones o por el inicio/fin de la cadena.
+
+Si el número de argumentos no es 1, o si no hay palabras para mostrar, el programa muestra un \n.
+Example:
+
+$> ./epur_str "See? It's easy to print the same thing" | cat -e
+See? It's easy to print the same thing$
+$> ./epur_str " this        time it      will     be    more complex  . " | cat -e
+this time it will be more complex .$
+$> ./epur_str "No S*** Sherlock..." "nAw S*** ShErLaWQ..." | cat -e
+$
+$> ./epur_str "" | cat -e
+$
+$>
+*/
 #include <unistd.h>
 int main(int argc, char **argv)
 {

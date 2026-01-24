@@ -1,3 +1,22 @@
+/*Escriba un programa que tome una o más cadenas y, para cada argumento, escriba el último carácter (una letra de cada palabra) en mayúsculas y el resto en minúsculas. Luego, muestre el resultado seguido de un \n.
+
+Una palabra es una sección de una cadena delimitada por espacios/tabuladores o por el inicio/final de la cadena. Si una palabra tiene una sola letra, debe escribirse en mayúscula.
+
+Una letra es un carácter del conjunto [a-zA-Z]
+
+Si no hay parámetros, muestre \n.
+
+Ejemplos:
+$> ./rstr_capitalizer | cat -e
+$
+$> ./rstr_capitalizer "a FiRSt LiTTlE TESt" | cat -e
+A firsT littlE tesT$
+$> ./rstr_capitalizer "SecONd teST A LITtle BiT   Moar comPLEX" "   But... This iS not THAT COMPLEX" "     Okay, this is the last 1239809147801 but not    the least    t" | cat -e
+seconD tesT A littlE biT   moaR compleX$
+   but... thiS iS noT thaT compleX$
+     okay, thiS iS thE lasT 1239809147801 buT noT    thE leasT    T$
+$>
+*/
 #include <unistd.h>
 int main(int argc, char **argv)
 {

@@ -1,3 +1,18 @@
+/*Escriba un programa llamado alpha_mirror que tome una cadena y la muestre después de reemplazar cada carácter alfabético por el carácter alfabético opuesto, seguido de un salto de línea.
+
+"a" se convierte en "z", "Z" en "A", "d" en "w", "M" en "N", y así sucesivamente.
+
+No se cambia el uso de mayúsculas y minúsculas.
+
+Si el número de argumentos no es 1, se muestra solo un salto de línea.
+$>./alpha_mirror "abc"
+zyx
+$>./alpha_mirror "My horse is Amazing." | cat -e
+Nb slihv rh Znzarmt.$
+$>./alpha_mirror | cat -e
+$
+$>
+*/
 #include <unistd.h>
 int main(int argc, char **argv)
 {

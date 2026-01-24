@@ -1,3 +1,16 @@
+/*Escriba un programa que tome un entero positivo como argumento y muestre la suma de todos los números primos inferiores o iguales a él, seguido de un salto de línea.
+
+Si el número de argumentos no es 1, o el argumento no es un número positivo, simplemente muestre 0 seguido de un salto de línea.
+
+Sí, los ejemplos son correctos.
+$>./add_prime_sum 5
+10
+$>./add_prime_sum 7 | cat -e
+17$
+$>./add_prime_sum | cat -e
+0$
+$>
+*/
 #include <unistd.h>
 int ft_atoi(char *s)
 {

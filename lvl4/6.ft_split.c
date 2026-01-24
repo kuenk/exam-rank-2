@@ -1,3 +1,11 @@
+
+/*Escriba una función que tome una cadena, la divida en palabras y las devuelva como un array de cadenas terminado en NULL.
+
+Una "palabra" se define como una parte de una cadena delimitada por espacios, tabulaciones, saltos de línea o por el inicio y el final de la cadena.
+
+Su función debe declararse de la siguiente manera:
+
+char **ft_split(char *str);*/
 #include <stdlib.h>
 int separator(char c)
 {

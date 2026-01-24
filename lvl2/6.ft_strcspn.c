@@ -1,3 +1,7 @@
+/*
+reproduce exactamente la funcion strcspn
+size_t ft_strcspn(const char *s, const char *reject)
+*/
 #include <stdio.h>
 #include <string.h>
 size_t ft_strcspn(const char *s, const char *reject)

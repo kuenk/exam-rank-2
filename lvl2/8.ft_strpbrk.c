@@ -1,3 +1,6 @@
+/*reproduce exactamente el comportamiento de la funcion strpbrk
+char *ft_strpbrk(const char *s1, const char *s2)
+*/
 char *ft_strpbrk(const char *s1, const char *s2)
 {
     int i = 0;

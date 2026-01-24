@@ -1,3 +1,13 @@
+/*Escriba la siguiente función:
+
+int max(int* tab, unsigned int len);
+
+El primer parámetro es un array de int, el segundo es el número de elementos del array.
+
+La función devuelve el número más grande del array.
+
+Si el array está vacío, la función devuelve 0.
+*/
 int max(int* tab, unsigned int len)
 {
     unsigned int result = 0;

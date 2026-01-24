@@ -1,3 +1,17 @@
+/*Escriba una función que devuelva el número de elementos de la lista enlazada que se le pasa.
+
+Debe declararse de la siguiente manera:
+
+int ft_list_size(t_list *begin_list);
+
+Debe usar la siguiente estructura y entregarla como un archivo llamado ft_list.h:
+
+typedef struct s_list
+{
+struct s_list *next;
+void *data;
+} t_list;
+ */
 #include "ft_list.h"
 
 int ft_list_size(t_list *begin_list)

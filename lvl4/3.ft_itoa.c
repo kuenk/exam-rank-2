@@ -1,3 +1,11 @@
+/*
+Escriba una función que tome un entero y lo convierta en una cadena terminada en cero.
+La función devuelve el resultado en un array de caracteres que debe asignar.
+
+Su función debe declararse de la siguiente manera:
+
+char *ft_itoa(int nbr);
+*/
 #include <stdlib.h>
 #include <stdio.h>
 

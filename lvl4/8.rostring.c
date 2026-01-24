@@ -1,3 +1,31 @@
+/*
+Escriba un programa que tome una cadena y la muestre después de rotarla una palabra a la izquierda.
+
+De esta manera, la primera palabra se convierte en la última y las demás permanecen en el mismo orden.
+
+Una "palabra" se define como una parte de una cadena delimitada por espacios o tabulaciones, o por el inicio y el final de la cadena.
+
+Las palabras se separarán solo por un espacio en la salida.
+
+Si hay menos de un argumento, el programa muestra \n.
+
+Ejemplo:
+$>./rostring "abc   " | cat -e
+abc$
+$>
+$>./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+$>
+$>./rostring "     AkjhZ zLKIJz , 23y"
+zLKIJz , 23y AkjhZ
+$>
+$>./rostring "first" "2" "11000000"
+first
+$>
+$>./rostring | cat -e
+$
+$>
+*/
 #include <unistd.h>
 
 int main(int argc, char **argv)

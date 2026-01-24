@@ -1,3 +1,21 @@
+/*Escriba un programa que tome dos cadenas y compruebe si es posible escribir la primera cadena con caracteres de la segunda, respetando el orden en que aparecen estos caracteres en la segunda.
+
+Si es posible, el programa muestra la cadena seguida de un \n; de lo contrario, simplemente muestra un \n.
+
+Si el número de argumentos no es 2, el programa muestra un \n.
+Examples:
+
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
+$
+$>./wdmatch "forty two" "qfqfsoudf arzgrsayns tsryegftdgs sjytwdekuooixq " | cat -e
+forty two$
+$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+$>./wdmatch | cat -e
+$
+*/
 #include <unistd.h>
 int main(int argc, char **argv)
 {

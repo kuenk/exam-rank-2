@@ -1,3 +1,10 @@
+/*Escriba un programa que imprima los números del 1 al 100, separados por una nueva línea.
+
+Si el número es múltiplo de 3, imprime "fizz".
+
+Si el número es múltiplo de 5, imprime "buzz".
+
+Si el número es múltiplo de 3 y de 5, imprime "fizzbuzz".*/
 #include <unistd.h>
 
 void putnbr(int n)

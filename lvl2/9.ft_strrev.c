@@ -1,3 +1,11 @@
+/*
+Escriba una función que invierta (in situ) una cadena.
+
+Debe devolver su parámetro.
+
+Su función debe declararse de la siguiente manera:
+char *ft_strrev(char *str)
+*/
 char *ft_strrev(char *str)
 {
     int len = 0;

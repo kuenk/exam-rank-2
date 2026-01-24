@@ -1,3 +1,14 @@
+/*
+Escriba la siguiente función:
+
+void sort_int_tab(int *tab, unsigned int size);
+
+Debe ordenar (in situ) el array int 'tab', que contiene exactamente los miembros 'size', en orden ascendente.
+
+Se deben conservar los dobles.
+
+La entrada siempre es coherente.
+*/
 void sort_int_tab(int *tab, unsigned int size)
 {
     int aux;

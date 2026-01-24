@@ -1,3 +1,6 @@
+/*reproduce el comportamiento de la funcion strdup
+char *ft_strdup(char *src)
+ */
 #include <stdlib.h>
 #include <stdio.h>
 char *ft_strdup(char *src)

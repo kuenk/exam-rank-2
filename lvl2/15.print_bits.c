@@ -1,3 +1,8 @@
+/*Escriba una función que tome un byte y lo imprima en binario SIN SALTO DE LÍNEA AL FINAL.
+
+Su función debe declararse de la siguiente manera:
+void	print_bits(unsigned char octet);
+*/
 #include <unistd.h>
 void print_bits(unsigned char octet)
 {

@@ -1,3 +1,8 @@
+/*Escriba una función que tome un byte, lo invierta bit a bit (como en el ejemplo) y devuelva el resultado.
+
+Su función debe declararse de la siguiente manera:
+unsigned char reverse_bits(unsigned char octet)
+*/
 unsigned char reverse_bits(unsigned char octet)
 {
     unsigned int i = 8;

@@ -1,7 +1,22 @@
+/*Escriba un programa que tome una cadena y muestre su primera palabra, seguida de un salto de línea.
+
+Una palabra es una sección de cadena delimitada por espacios/tabuladores o por el inicio/final de la cadena.
+
+Si el número de parámetros no es 1, o si no hay palabras, simplemente muestre un salto de línea.
+Examples:
+
+$> ./first_word "FOR PONY" | cat -e
+FOR$
+$> ./first_word "this        ...    is sparta, then again, maybe    not" | cat -e
+this$
+$> ./first_word "   " | cat -e
+$
+$> ./first_word "a" "b" | cat -e
+$
+$> ./first_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$
+*/
 #include <unistd.h>
-
-
-
 
 int main(int argc, char **argv)
 {

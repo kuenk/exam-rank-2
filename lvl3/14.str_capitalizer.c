@@ -1,3 +1,21 @@
+/*
+Escriba un programa que tome una o varias cadenas y, para cada argumento, escriba en mayúscula el primer carácter de cada palabra (si es una letra, obviamente), ponga el resto en minúscula y muestre el resultado en la salida estándar, seguido de \n.
+
+Una "palabra" se define como una parte de una cadena delimitada por espacios o tabulaciones, o por el inicio y el final de la cadena. Si una palabra solo tiene una letra, debe escribirse en mayúscula.
+
+Si no hay argumentos, el programa debe mostrar \n.
+
+Ejemplo:
+$> ./str_capitalizer | cat -e
+$
+$> ./str_capitalizer "a FiRSt LiTTlE TESt" | cat -e
+A First Little Test$
+$> ./str_capitalizer "__SecONd teST A LITtle BiT   Moar comPLEX" "   But... This iS not THAT COMPLEX" "     Okay, this is the last 1239809147801 but not    the least    t" | cat -e
+__second Test A Little Bit   Moar Complex$
+   But... This Is Not That Complex$
+     Okay, This Is The Last 1239809147801 But Not    The Least    T$
+$>
+*/
 #include <unistd.h>
 #include <stdio.h>
 int main(int argc, char **argv)
