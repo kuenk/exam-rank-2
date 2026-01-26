@@ -1,4 +1,5 @@
 /*reproduce exactamente el comportamiento de la funcion strspn
+Cuenta cuántos caracteres seguidos, desde el principio de la cadena, están dentro de una lista permitida.
 size_t ft_strspn(const char *s, const char *accept)
 
 */
