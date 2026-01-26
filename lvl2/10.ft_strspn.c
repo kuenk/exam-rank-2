@@ -1,5 +1,9 @@
 /*reproduce exactamente el comportamiento de la funcion strspn
 Cuenta cuántos caracteres seguidos, desde el principio de la cadena, están dentro de una lista permitida.
+Empieza desde s[0]
+Se detiene en cuanto encuentra un carácter que NO esté en accept
+No busca en toda la cadena, solo al inicio
+
 size_t ft_strspn(const char *s, const char *accept)
 
 */
