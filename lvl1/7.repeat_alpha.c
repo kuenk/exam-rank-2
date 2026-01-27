@@ -25,15 +25,20 @@ int main(int argc, char **argv)
 {
     int i = 0;
     int r;
+    char c;
     if (argc == 2)
     {
         while(argv[1][i] != '\0')
         {
-            r=0;
-            while(r <= i)
+            c = argv[1][i];
+            if(c >= 'A' && c <='Z'
+                r = c - 'A' + 1;
+            else
+                r = c - 'a' +1;
+            while(r > 0)
                 {
-                    write(1, &argv[1][i],1);
-                    r++;
+                    write(1, &c, 1);
+                    r--;
                 }
             i++;
             }
@@ -41,3 +46,8 @@ int main(int argc, char **argv)
     write(1,"\n", 1);
     return(0);
 }
+
+
+./nombre.x abc
+
+abbccc
