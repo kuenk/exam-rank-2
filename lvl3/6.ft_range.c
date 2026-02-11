@@ -16,7 +16,7 @@ Examples:
 int *ft_range(int start, int end)
 {
     int len = abs(end - start) + 1;
-    int *str =(int *)malloc(len * sizeof(int));
+    int *str =(int *)malloc(sizeof(int) * len);
     int i = 0;
     
     while(i < end)
