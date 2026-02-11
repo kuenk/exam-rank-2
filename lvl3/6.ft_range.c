@@ -19,7 +19,7 @@ int *ft_range(int start, int end)
     int *str =(int *)malloc(sizeof(int) * len);
     int i = 0;
     
-    while(i < end)
+    while(i < len)
     {
         if (start < end)
         {
